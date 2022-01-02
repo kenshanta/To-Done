@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { UiService } from 'src/app/services/ui.service';
-import { Subscription } from 'rxjs';
 import { Router } from '@angular/router';
+
+import { Subscription } from 'rxjs';
+
+import { UiService } from 'src/app/services/ui.service';
 
 @Component({
   selector: 'app-header',
